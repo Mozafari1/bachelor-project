@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>eloksering_send</class>
+ <widget class="QWidget" name="eloksering_send">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <widget class="QWidget" name="side_eloksering_bedrifter">
+      <widget class="QLabel" name="modus_0">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>621</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Elektrokjemisk metode | Eloksering (Aluminium)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo_tepvr_0">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_0_eloksering_bedrifter">
+       <property name="geometry">
+        <rect>
+         <x>1110</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="hydal_alu_profiler">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>120</y>
+         <width>501</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Hydal Aluminium Profiler Gjøvik</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="nct">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>120</y>
+         <width>501</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string>Norwegian Coating Technologies (NCT)</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="eloksal">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>390</y>
+         <width>311</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string>Eloksal AS</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="gundersen_galvano">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>390</y>
+         <width>311</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Gundersen Galvano AS</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="teloks">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>390</y>
+         <width>311</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Teloks</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_eloksering_eloksal">
+      <widget class="QLabel" name="logo_tepvr_1">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>621</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Elektrokjemisk metode | Eloksering (Aluminium)</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_1_eloksal">
+       <property name="geometry">
+        <rect>
+         <x>1110</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_1_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>361</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Eloksal AS</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_eloksering_gundersen_galvano">
+      <widget class="QPushButton" name="tilbake_2_gundersen">
+       <property name="geometry">
+        <rect>
+         <x>1110</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>621</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Elektrokjemisk metode | Eloksering (Aluminium)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo_tepvr_2">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_2_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>361</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Gundersen Galvano AS</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_eloksering_hydal_alu">
+      <widget class="QLabel" name="modus_3_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>361</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Hydal Aluminium Profiler Gjøvik</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_3_hydal_alu">
+       <property name="geometry">
+        <rect>
+         <x>1110</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>631</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Elektrokjemisk metode | Eloksering (Aluminium)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo_tepvr_3">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_eloksering_teloks">
+      <widget class="QPushButton" name="tilbake_4_teloks">
+       <property name="geometry">
+        <rect>
+         <x>1110</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>631</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Elektrokjemisk metode | Eloksering (Aluminium)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_4_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>361</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Teloks</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo_tepvr_4">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_eloksering_nct">
+      <widget class="QPushButton" name="tilbake_5_nct">
+       <property name="geometry">
+        <rect>
+         <x>1110</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_5_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>431</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Norwegian Coating Technologies (NCT)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>631</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Elektrokjemisk metode | Eloksering (Aluminium)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo_tepvr_5">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

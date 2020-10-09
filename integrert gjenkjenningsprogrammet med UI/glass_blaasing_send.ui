@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>glass_blaasing_send</class>
+ <widget class="QWidget" name="glass_blaasing_send">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <widget class="QWidget" name="side_glass_blaasing_bedrifter">
+      <widget class="QLabel" name="modus_0">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>671</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Annet | Glass blåsing</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tronrud">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>280</y>
+         <width>561</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_0_glass_blaasing_bedrifter">
+       <property name="geometry">
+        <rect>
+         <x>1110</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo_tepvr_0">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_glass_blaasing_tronrud">
+      <widget class="QLabel" name="modus_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>621</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Annet | Glass blåsing</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_1_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>471</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Tronrud Engineering AS</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo_tepvr_1">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_1_glass_blaasing_tronrud">
+       <property name="geometry">
+        <rect>
+         <x>1110</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

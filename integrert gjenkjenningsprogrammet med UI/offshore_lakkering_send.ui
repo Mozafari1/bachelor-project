@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>offshore_lakkering_send</class>
+ <widget class="QWidget" name="offshore_lakkering_send">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <widget class="QWidget" name="side_offshore_lakkering_bedrifter">
+      <widget class="QPushButton" name="nct">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>270</y>
+         <width>711</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string>Norwegian Coating Technologies (NCT)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_0">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>461</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Lakkering | Offshore lakkering</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_0_offshore_bedrifter">
+       <property name="geometry">
+        <rect>
+         <x>1090</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo_tepvr_0">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_oppshore_norwegian_coating_tech">
+      <widget class="QLabel" name="logo_tepvr_1">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_0_offshore_nct">
+       <property name="geometry">
+        <rect>
+         <x>1090</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_1_">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>431</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Norwegian Coating Technologies (NCT)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>621</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Send | Lakkering | Offshore lakkering</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

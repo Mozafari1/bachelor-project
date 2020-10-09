@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pulverlakkering_motta</class>
+ <widget class="QWidget" name="pulverlakkering_motta">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <widget class="QWidget" name="side_pulverlakk_bedrifter">
+      <widget class="QPushButton" name="ac_teknikk">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>150</y>
+         <width>311</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string>AC Teknikk</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="logo_tepvr_0">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_0">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>441</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Motta | Lakkering | Pulverlakkering</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_0_pulver_bedrifter">
+       <property name="geometry">
+        <rect>
+         <x>1090</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="moss_jern_og_stanse">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>150</y>
+         <width>311</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string>Moss Jern og Stanse</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="rustfrie_berg">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>410</y>
+         <width>311</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Rustfrie Berg</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ivar_braathen_mekaniske">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>410</y>
+         <width>311</width>
+         <height>221</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Ivar Bråthen Mekaniske</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_pulver_ac_teknikk">
+      <widget class="QLabel" name="logo_tepvr_1">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>551</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Motta | Lakkering | Pulverlakkering</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_1_pulver_ac_teknikk">
+       <property name="geometry">
+        <rect>
+         <x>1090</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_1_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>551</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: AC Teknikk</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_moss_jern_og_stanse">
+      <widget class="QLabel" name="logo_tepvr_2">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_2_pulver_moss_jern">
+       <property name="geometry">
+        <rect>
+         <x>1090</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>451</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Motta | Lakkering | Pulverlakkering</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_2_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>281</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Moss Jern og Stanse</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_rustfrie_berg">
+      <widget class="QLabel" name="logo_tepvr_3">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_3_pulver_rustfrieBerg">
+       <property name="geometry">
+        <rect>
+         <x>1090</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>441</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Motta | Lakkering | Pulverlakkering</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_3_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>201</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Rustfrie Berg</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="side_ivar_braathen_mekaniske">
+      <widget class="QLabel" name="logo_tepvr_4">
+       <property name="geometry">
+        <rect>
+         <x>760</x>
+         <y>0</y>
+         <width>481</width>
+         <height>94</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="tilbake_4_pulver_ivarBraathen">
+       <property name="geometry">
+        <rect>
+         <x>1090</x>
+         <y>650</y>
+         <width>111</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>551</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Valgt modus: Motta | Lakkering | Pulverlakkering</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="modus_4_1">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>301</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Bedrift: Ivar Bråthen Mekaniske</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

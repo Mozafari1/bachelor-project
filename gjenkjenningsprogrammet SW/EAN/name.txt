@@ -1,0 +1,13 @@
+
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 MIN-5238463.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 IPH-2847738.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 IPH-2847738.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 IPH-2847738.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 P-0004 A.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 P-0003 A.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 P-0003 A.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 P-0003 A.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 P-0003 A.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 P-0003 A.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 P-0003 A.jpg
+C:/OpenCV_DIR/Gjenkjenning_PVR/gjenkjenning/bilder\A4 P-0004 A.jpg
